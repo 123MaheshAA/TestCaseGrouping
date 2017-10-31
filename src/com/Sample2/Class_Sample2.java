@@ -25,7 +25,7 @@ public class Class_Sample2 {
 		System.out.println("This is the first method for Regression");
 	}
 
-	@Test(groups={"regression","smoke"})
+	@Test(groups={"smoke","regression"})
 	public void method24(){
 		
 		System.out.println("This is the first method for Regression & Smoke");
